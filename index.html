@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kajuveda - Premium Cashew Wholeseller</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-green: #2D6A4F;
+            --light-green: #95D5B2;
+            --background-pink: #F8E1E8;
+            --text-brown: #40281A;
+            --button-green: #B7E4C7;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: var(--text-brown);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background-color: white;
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav a {
+            color: var(--text-brown);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .hero {
+            background-color: var(--background-pink);
+            padding: 4rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero-content {
+            max-width: 50%;
+            position: relative;
+            z-index: 2;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--primary-green);
+        }
+        .hero p {
+            margin-bottom: 2rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--button-green);
+            color: var(--primary-green);
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+        .secondary-button {
+            display: inline-block;
+            background-color: var(--background-pink);
+            color: var(--primary-green);
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            border: 2px solid var(--primary-green);
+        }
+        .leaf-decoration {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 50%;
+            height: 100%;
+            background-image: url('path-to-your-leaf-image.svg');
+            background-size: cover;
+            background-position: left center;
+            z-index: 1;
+        }
+        .sign-up {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: var(--background-pink);
+            color: var(--primary-green);
+            padding: 5px 15px;
+            border-radius: 15px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h1>Kajuveda</h1>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                    <li><a href="#other">OTHER</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>RAINFORESTS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis lectus nisi, sit amet pulvinar magna. Suspendisse potenti. In porta vitae libero id elementum.</p>
+                <a href="#" class="cta-button">GET STARTED</a>
+                <a href="#" class="secondary-button">READ MORE</a>
+            </div>
+        </div>
+        <div class="leaf-decoration"></div>
+        <a href="#" class="sign-up">SIGN UP</a>
+    </section>
+
+    <!-- Add more sections as needed -->
+
+</body>
+</html>
